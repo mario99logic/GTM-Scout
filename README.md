@@ -1,4 +1,4 @@
-# GTM Hunter
+# GTM Scout
 
 Automated outreach pipeline that finds engineers using a competitor's technology and generates personalised LinkedIn messages using Claude. Configure any hunter company, competitor, and technology via CLI flags — no code changes needed.
 
