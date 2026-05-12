@@ -1,0 +1,17 @@
+{
+  "seniority": {
+    "high": 40,
+    "mid_high": 30,
+    "mid": 20,
+    "entry": 10
+  },
+  "domain": {
+    "per_term": 5,
+    "max": 20
+  },
+  "cassandra": {
+    "per_term": 15,
+    "max": 30
+  },
+  "engagement": 10
+}

@@ -1,0 +1,16 @@
+company_name,industry,tech_signal,evidence
+Netflix,Streaming,cassandra+datastax,https://netflixtechblog.com/revisiting-1-million-writes-per-second-c191a84864cc
+Uber,Mobility,cassandra,https://www.uber.com/blog/cassandra/
+Discord,Gaming,cassandra,https://discord.com/blog/how-discord-stores-trillions-of-messages
+Apple,Technology,cassandra,https://www.datastax.com/customers/apple
+Instagram,Social Media,cassandra,https://instagram-engineering.com/instagration-pt-2-migration-to-apache-cassandra-from-redis-a8bfa73f7878
+Spotify,Music Streaming,cassandra,https://engineering.atspotify.com/
+Yelp,Local Search,cassandra,https://engineeringblog.yelp.com/
+Comcast,Telecommunications,cassandra+datastax,https://www.datastax.com/customers/comcast
+Rakuten,E-commerce,cassandra,https://stackshare.io/rakuten/rakuten
+Hulu,Streaming,cassandra,https://stackshare.io/hulu/hulu
+Target,Retail,cassandra+datastax,https://www.datastax.com/customers/target
+Goldman Sachs,Finance,cassandra,https://stackshare.io/goldman-sachs/goldman-sachs
+ING,Finance,datastax,https://www.datastax.com/customers/ing
+Intuit,Fintech,cassandra,https://stackshare.io/intuit/intuit
+Robinhood,Fintech,cassandra,https://stackshare.io/robinhood/robinhood
