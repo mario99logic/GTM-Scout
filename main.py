@@ -48,7 +48,7 @@ def run(mock, dry_run, max_companies, max_leads, hunter_company, competitor_comp
 async def _pipeline(mock: bool, dry_run: bool, max_companies: int, max_leads: int, ctx: CampaignContext):
     init_db()
 
-    report_id = create_report(lead_source="mock" if mock else "api+linkedin")
+    report_id = create_report(lead_source="mock" if mock else "api+apollo+linkedin")
     stats = {
         "total_found": 0,
         "total_qualified": 0,

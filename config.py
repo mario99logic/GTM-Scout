@@ -8,6 +8,7 @@ class Settings(BaseSettings):
     anthropic_api_key: str
     anthropic_model: str = "claude-sonnet-4-5"
     proxycurl_api_key: str = ""
+    apollo_api_key: str = ""
     github_token: str = ""
     stackshare_api_key: str = ""
     dry_run: bool = True

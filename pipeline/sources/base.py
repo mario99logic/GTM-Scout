@@ -41,6 +41,6 @@ def get_company_source(mock: bool = False) -> CompanySource:
 
 def get_lead_source(mock: bool = False) -> LeadSource:
     from pipeline.sources.mock import MockLeadSource
-    from pipeline.sources.linkedin import LinkedInLeadSource
+    from pipeline.sources.leads import CompositeLeadSource
 
-    return MockLeadSource() if mock else LinkedInLeadSource()
+    return MockLeadSource() if mock else CompositeLeadSource()
