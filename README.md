@@ -81,7 +81,7 @@ output/
 └── report_{id}.json        ← same data as JSON
 ```
 
-The SQLite database `gtm_hunter.db` stores all leads, messages, and run reports..
+The SQLite database `gtm_hunter.db` stores all leads, messages, and run reports.
 
 The messages that were generated in the testing run: [view here](results/messages.md)
 
