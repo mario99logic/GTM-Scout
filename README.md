@@ -21,8 +21,8 @@ A frontend dashboard is planned to allow simple configuration.
 
 ```bash
 # 1. Clone the repo.
-git clone https://github.com/<YOUR_USERNAME>/gtm-hunter.git
-cd gtm-hunter
+git clone https://github.com/<YOUR_USERNAME>/gtm-scout.git
+cd gtm-scout
 
 # 2. Create and activate a virtual environment.
 python3 -m venv .venv && source .venv/bin/activate
@@ -81,7 +81,7 @@ output/
 └── report_{id}.json        ← same data as JSON
 ```
 
-The SQLite database `gtm_hunter.db` stores all leads, messages, and run reports.
+The SQLite database `database.db` stores all leads, messages, and run reports.
 
 The messages that were generated in the testing run: [view here](results/messages.md)
 

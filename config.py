@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     dry_run: bool = True
     score_threshold: int = Field(50, ge=0, le=100)
     max_leads: int = Field(10, ge=1)
-    database_url: str = "sqlite:///./gtm_hunter.db"
+    database_url: str = "sqlite:///./database.db"
     output_dir: str = "./output"
 
 
