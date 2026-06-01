@@ -1,4 +1,4 @@
-"""GTM Hunter — automated competitor user outreach.
+"""GTM Scout — automated competitor user outreach.
 This script implements the main pipeline for discovering target companies and leads, generating personalized messages, and triggering outreach actions."""
 
 import asyncio
@@ -22,7 +22,7 @@ from pipeline.storage import (
 
 @click.group()
 def cli():
-    """GTM Hunter — automated competitor user outreach."""
+    """GTM Scout — automated competitor user outreach."""
 
 
 @cli.command()
@@ -56,7 +56,7 @@ async def _pipeline(mock: bool, dry_run: bool, max_companies: int, max_leads: in
         "total_messaged": 0,
     }
 
-    print("\nGTM Hunter")
+    print("\nGTM Scout")
     print(f"Hunter company : {ctx.hunter_company}")
     print(f"Targeting      : {ctx.competitor_company} ({ctx.competitor_technology}) users")
     print(f"Mode           : {'mock' if mock else 'live'}")
