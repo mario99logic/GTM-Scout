@@ -61,7 +61,8 @@ async def _pipeline(mock: bool, dry_run: bool, max_companies: int, max_leads: in
     print(f"Targeting      : {ctx.competitor_company} ({ctx.competitor_technology}) users")
     print(f"Mode           : {'mock' if mock else 'live'}")
     print(f"Dry run        : {dry_run}")
-    print(f"Max companies  : {max_companies} | Max leads: {max_leads}\n")
+    print(f"Max companies  : {max_companies} | Max leads: {max_leads}")
+    print(f"Score threshold: {settings.score_threshold}\n")
 
     # ── Step 1: Company discovery ─────────────────────────────────────────
     # We could also add a step here to enrich the company data with info like size, funding, tech stack etc.
