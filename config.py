@@ -14,6 +14,7 @@ class Settings(BaseSettings):
     dry_run: bool = Field(True, description="Log messages instead of sending them")
     score_threshold: int = Field(50, ge=0, le=100, description="Minimum score (0–100) for a lead to qualify")
     max_leads: int = Field(10, ge=1, description="Max leads to process across all companies")
+    max_companies: int = Field(10, ge=1, description="Max companies to discover per run")
     database_url: str = "sqlite:///./database.db"
     output_dir: str = "./output"
 
